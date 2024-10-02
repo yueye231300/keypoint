@@ -70,6 +70,7 @@ def update_session_state():
 
 st.button(label=ss.button_label[ss.counter], key='button_press', on_click=btn_click)
 
+
 # Function to display a question
 def quiz_app():
     # create container
