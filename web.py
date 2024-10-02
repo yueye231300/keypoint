@@ -10,7 +10,7 @@ dict_df = df.to_dict(orient='records')
 with st.expander("这是对这个网站的一些解释"):
         st.markdown("主要的做题方式是选择**start**的按钮，获得5个随机的题目，但是这五个题目可能会出现一个或者两个一样的题目\
 当做完题后使用**submit**来提交题目，并获得每个题目的解释，最后使用**reload**重新获得题目")
-        st.image("image/one.jpg")
+
 st.title("知识点刷题网站")
 
 
