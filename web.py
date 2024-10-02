@@ -4,7 +4,7 @@ import pandas as pd
 import time
 import random
 
-df = pd.read_csv("csv\keypoint.csv")
+df = pd.read_csv("csv/keypoint.csv")
 dict_df = df.to_dict(orient='records')
 
 with st.expander("这是对这个网站的一些解释"):
